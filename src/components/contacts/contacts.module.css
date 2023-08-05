@@ -1,0 +1,43 @@
+p {
+  margin: 0;
+}
+
+.nocontacts {
+  margin-top: 16px;
+}
+
+.contactlist {
+  width: 400px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactitem {
+  font-family: 'Gloria Hallelujah', cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deletebutton {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #eaff002e;
+  color: blue;
+  transition: all 0.3s;
+}
+
+.deletebutton:hover {
+  background-color: #eaff00;
+}

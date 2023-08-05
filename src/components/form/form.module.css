@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.addbutton {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 5px;
+  color: blue;
+  background-color: #eaff002e;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.addbutton:hover {
+  background-color: #eaff00;
+}
